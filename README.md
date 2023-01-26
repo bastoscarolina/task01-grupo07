@@ -68,7 +68,6 @@ Aplique as alterações introduzidas por todas as confirmações no ramo princip
 
 
 
-### Referências: As informações referentes ao Cherry-pick foram retiradas da documentação da ferramenta: [link name](https://git-scm.com/docs/git-cherry-pick/pt_BR)
 
 ---
 ## Rebase
@@ -218,3 +217,4 @@ Referências:
 - [Git Rebase Documentation](https://git-scm.com/docs/git-rebase/pt_BR)
 - [Git Revert Documentation](https://git-scm.com/docs/git-revert/pt_BR)
 - [Utilizando rebase e squash para melhorar o histórico do Git](https://medium.com/cwi-software/utilizando-rebase-e-squash-para-melhorar-o-hist%C3%B3rico-do-git-fdb2d952c09c)
+- [Git Cherry-pick Documentation](https://git-scm.com/docs/git-cherry-pick/pt_BR)
