@@ -13,8 +13,11 @@
 
 ---
 
-<h2 align="center">Cherry-pick</h2>
-Funcionamento: dado um ou mais commits existentes, aplique a alteração que cada um introduz, registrando um novo commit para cada um. Isso requer que a sua árvore de trabalho esteja limpa (nenhuma alteração a partir do commit HEAD). 
+## Cherry-pick
+
+### Funcionamento
+
+Dado um ou mais commits existentes, aplica a alteração que cada um introduz, registrando um novo commit para cada um. Isso requer que a sua árvore de trabalho esteja limpa (nenhuma alteração a partir do commit HEAD). 
 Quando não é óbvio como aplicar uma alteração, acontece o seguinte: 
 
 1. O ramo atual e o ponteiro HEAD permanecem no último commit realizado com sucesso.
@@ -27,13 +30,13 @@ Quando não é óbvio como aplicar uma alteração, acontece o seguinte:
 
 5. Nenhuma outra modificação é feita.
 
-Sintaxe:  
+### Sintaxe
 `git cherry-pick [--edit] [-n] [-m parent-number] [-s] [-x] [--ff]
 		  [-S[<keyid>]] <commit>…​`
 
 `git cherry-pick (--continue | --skip | --abort | --quit)`
 
-Aplicação:  
+### Aplicação
 
 Aplique a mudança introduzida pelo commit na ponta do branch master e crie um novo commit com esta mudança:
 
